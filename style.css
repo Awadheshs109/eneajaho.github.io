@@ -261,4 +261,17 @@ a span::before {
     margin: 10px 0 0 0;
     font-size: 18px;
   }
+
+  /* Scroll Mouse */
+  a span {
+    width: 20px;
+    height: 35px;
+    margin-left: -10px;
+    margin-top: -40px;
+  }
+  a span::before {
+    width: 4px;
+    height: 4px;
+    margin-left: -2px;
+  }
 }
